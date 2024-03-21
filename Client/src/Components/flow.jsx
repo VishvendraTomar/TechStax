@@ -53,6 +53,7 @@ const DnDFlow = () => {
       const flow = reactFlowInstance.toObject();
       
       localStorage.setItem(flowKey, JSON.stringify(flow));
+      alert("Data have been saved")
     }
   }, [reactFlowInstance]);
 
@@ -112,10 +113,14 @@ const DnDFlow = () => {
   
 
   return (
-    <div className="dndflow">
+    <div style={{
+      height: '100vh',
+      width: '100%',
+    }} className="dndflow">
       <ReactFlowProvider>
-        <div className="reactflow-wrapper" ref={reactFlowWrapper}>
-          <ReactFlow
+        <div  className="reactflow-wrapper" ref={reactFlowWrapper}>
+          <ReactFlow 
+      
             nodes={nodes}
             edges={edges}
             onNodesChange={onNodesChange}

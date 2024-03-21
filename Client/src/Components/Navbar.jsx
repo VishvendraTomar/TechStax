@@ -4,8 +4,8 @@ import {styled} from "styled-components"
 const Navbar = () => {
   return (
     <DIV>
-        <Link to={"/home"}>Home</Link>
-        <Link to={"/post"}>Post</Link>
+        {/* <Link to={"/"}>Home</Link> */}
+        <Link to={'/'} >React flow</Link>
         <Link to={"/signup"}>SignUp</Link>
         <Link to={"/login"}>Login</Link>
     </DIV>

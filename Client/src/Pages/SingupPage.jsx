@@ -22,9 +22,6 @@ const SignUpPage = () => {
     email: "",
     gender: "",
     password: "",
-    age: 0,
-    city: "",
-    is_married: false,
   };
 
   const [form, setForm] = useState(initial);
@@ -51,7 +48,7 @@ const SignUpPage = () => {
     setForm(initial);
   };
 
-  const { name, email, gender, password, age, city, is_married } = form;
+  const { name, email, gender, password, } = form;
 
   return (
     <>
@@ -87,15 +84,7 @@ const SignUpPage = () => {
                 placeholder="Enter Your Email"
               />
             </FormControl>
-            <FormControl>
-              <Input
-                required
-                onChange={handleChange}
-                name="gender"
-                type="text"
-                placeholder="Enter Your Gender"
-              />
-            </FormControl>
+            
             <FormControl>
               <InputGroup>
                 <Input

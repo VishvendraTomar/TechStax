@@ -45,9 +45,9 @@ const LoginPage = () => {
   };
 
   const { password, email } = form;
-
+ 
   if (isAuth) {
-    return <Navigate to="/course" replace={true} />;
+    return <Navigate to="/" replace={true} />;
   }
 
   return (
