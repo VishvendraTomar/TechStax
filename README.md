@@ -2,7 +2,7 @@
 # Project Summary
 
 The project is a web application that allows users to create workflows for basic data manipulation tasks in a visual and intuitive manner. Users can construct workflows by dragging and dropping pre-defined nodes onto a canvas, connecting them to define the flow of data processing.
-## live - 
+## live - https://65fbff194405a8a02aae59f1--polite-fenglisu-2518f4.netlify.app/
 
 ## demo - ![image](https://github.com/VishvendraTomar/TechStax/assets/95501800/f8562387-1f5e-4e3c-97e1-3abcc037abcd)
 
